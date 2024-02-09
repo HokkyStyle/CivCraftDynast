@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DyCC">
+    <output-path>$PROJECT_DIR$/out/artifacts/DyCC</output-path>
+    <root id="archive" name="DyCivCraft.jar">
+      <element id="module-output" name="CivilizationCraft" />
+      <element id="directory" name="lib">
+        <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+      </element>
+      <element id="directory" name="data">
+        <element id="dir-copy" path="$PROJECT_DIR$/data" />
+      </element>
+      <element id="directory" name="localization">
+        <element id="dir-copy" path="$PROJECT_DIR$/localization" />
+      </element>
+    </root>
+  </artifact>
+</component>

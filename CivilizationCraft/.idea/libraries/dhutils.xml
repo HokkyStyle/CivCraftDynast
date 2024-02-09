@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dhutils">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Libraries&amp;Plugins/dhutils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

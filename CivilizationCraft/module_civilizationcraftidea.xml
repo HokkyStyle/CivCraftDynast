@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_civilizationcraftidea" default="compile.module.civilizationcraftidea">
+  <dirname property="module.civilizationcraftidea.basedir" file="${ant.file.module_civilizationcraftidea}"/>
+  
+  <property name="module.jdk.home.civilizationcraftidea" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.civilizationcraftidea" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.civilizationcraftidea" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.civilizationcraftidea" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="civilizationcraftidea.output.dir" value="${module.civilizationcraftidea.basedir}/out/production/CivilizationCraftIDEA"/>
+  <property name="civilizationcraftidea.testoutput.dir" value="${module.civilizationcraftidea.basedir}/out/test/CivilizationCraftIDEA"/>
+  
+  <path id="civilizationcraftidea.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="civilizationcraftidea.module.production.classpath">
+    <path refid="${module.jdk.classpath.civilizationcraftidea}"/>
+    <path refid="library.bonecp.classpath"/>
+    <path refid="library.custommobs-4.17.classpath"/>
+    <path refid="library.dhutils.classpath"/>
+    <path refid="library.guava.classpath"/>
+    <path refid="library.hamcrest-core-1.3.classpath"/>
+    <path refid="library.herochat.classpath"/>
+    <path refid="library.itag-1.1.0-snapshot.classpath"/>
+    <path refid="library.json.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.moblib.classpath"/>
+    <path refid="library.mockito-all-1.9.5.classpath"/>
+    <path refid="library.slf4j-simple.classpath"/>
+    <path refid="library.slf4j-api.classpath"/>
+    <path refid="library.spigot-1.11.2.classpath"/>
+    <path refid="library.tagapi.classpath"/>
+    <path refid="library.worldborder.classpath"/>
+    <path refid="library.vault.classpath"/>
+    <path refid="library.titleapi-1.7.4.classpath"/>
+    <path refid="library.vanishnopacket.classpath"/>
+    <path refid="library.nocheatplus.classpath"/>
+  </path>
+  
+  <path id="civilizationcraftidea.runtime.production.module.classpath">
+    <pathelement location="${civilizationcraftidea.output.dir}"/>
+    <path refid="library.bonecp.classpath"/>
+    <path refid="library.custommobs-4.17.classpath"/>
+    <path refid="library.dhutils.classpath"/>
+    <path refid="library.guava.classpath"/>
+    <path refid="library.hamcrest-core-1.3.classpath"/>
+    <path refid="library.herochat.classpath"/>
+    <path refid="library.itag-1.1.0-snapshot.classpath"/>
+    <path refid="library.json.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.moblib.classpath"/>
+    <path refid="library.mockito-all-1.9.5.classpath"/>
+    <path refid="library.slf4j-simple.classpath"/>
+    <path refid="library.slf4j-api.classpath"/>
+    <path refid="library.spigot-1.11.2.classpath"/>
+    <path refid="library.tagapi.classpath"/>
+    <path refid="library.worldborder.classpath"/>
+    <path refid="library.vault.classpath"/>
+    <path refid="library.titleapi-1.7.4.classpath"/>
+    <path refid="library.vanishnopacket.classpath"/>
+    <path refid="library.nocheatplus.classpath"/>
+  </path>
+  
+  <path id="civilizationcraftidea.module.classpath">
+    <path refid="${module.jdk.classpath.civilizationcraftidea}"/>
+    <pathelement location="${civilizationcraftidea.output.dir}"/>
+    <path refid="library.bonecp.classpath"/>
+    <path refid="library.custommobs-4.17.classpath"/>
+    <path refid="library.dhutils.classpath"/>
+    <path refid="library.guava.classpath"/>
+    <path refid="library.hamcrest-core-1.3.classpath"/>
+    <path refid="library.herochat.classpath"/>
+    <path refid="library.itag-1.1.0-snapshot.classpath"/>
+    <path refid="library.json.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.moblib.classpath"/>
+    <path refid="library.mockito-all-1.9.5.classpath"/>
+    <path refid="library.slf4j-simple.classpath"/>
+    <path refid="library.slf4j-api.classpath"/>
+    <path refid="library.spigot-1.11.2.classpath"/>
+    <path refid="library.tagapi.classpath"/>
+    <path refid="library.worldborder.classpath"/>
+    <path refid="library.vault.classpath"/>
+    <path refid="library.titleapi-1.7.4.classpath"/>
+    <path refid="library.vanishnopacket.classpath"/>
+    <path refid="library.nocheatplus.classpath"/>
+  </path>
+  
+  <path id="civilizationcraftidea.runtime.module.classpath">
+    <pathelement location="${civilizationcraftidea.testoutput.dir}"/>
+    <pathelement location="${civilizationcraftidea.output.dir}"/>
+    <path refid="library.bonecp.classpath"/>
+    <path refid="library.custommobs-4.17.classpath"/>
+    <path refid="library.dhutils.classpath"/>
+    <path refid="library.guava.classpath"/>
+    <path refid="library.hamcrest-core-1.3.classpath"/>
+    <path refid="library.herochat.classpath"/>
+    <path refid="library.itag-1.1.0-snapshot.classpath"/>
+    <path refid="library.json.classpath"/>
+    <path refid="library.junit-4.11.classpath"/>
+    <path refid="library.moblib.classpath"/>
+    <path refid="library.mockito-all-1.9.5.classpath"/>
+    <path refid="library.slf4j-simple.classpath"/>
+    <path refid="library.slf4j-api.classpath"/>
+    <path refid="library.spigot-1.11.2.classpath"/>
+    <path refid="library.tagapi.classpath"/>
+    <path refid="library.worldborder.classpath"/>
+    <path refid="library.vault.classpath"/>
+    <path refid="library.titleapi-1.7.4.classpath"/>
+    <path refid="library.vanishnopacket.classpath"/>
+    <path refid="library.nocheatplus.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.civilizationcraftidea">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.civilizationcraftidea">
+    <patternset refid="excluded.from.module.civilizationcraftidea"/>
+  </patternset>
+  
+  <path id="civilizationcraftidea.module.sourcepath">
+    <dirset dir="${module.civilizationcraftidea.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.civilizationcraftidea" depends="compile.module.civilizationcraftidea.production,compile.module.civilizationcraftidea.tests" description="Compile module CivilizationCraftIDEA"/>
+  
+  <target name="compile.module.civilizationcraftidea.production" depends="register.custom.compilers" description="Compile module CivilizationCraftIDEA; production classes">
+    <mkdir dir="${civilizationcraftidea.output.dir}"/>
+    <javac2 destdir="${civilizationcraftidea.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.civilizationcraftidea}/javac">
+      <compilerarg line="${compiler.args.civilizationcraftidea}"/>
+      <bootclasspath refid="civilizationcraftidea.module.bootclasspath"/>
+      <classpath refid="civilizationcraftidea.module.production.classpath"/>
+      <src refid="civilizationcraftidea.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.civilizationcraftidea"/>
+    </javac2>
+    
+    <copy todir="${civilizationcraftidea.output.dir}">
+      <fileset dir="${module.civilizationcraftidea.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.civilizationcraftidea.tests" depends="register.custom.compilers,compile.module.civilizationcraftidea.production" description="compile module CivilizationCraftIDEA; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.civilizationcraftidea" description="cleanup module">
+    <delete dir="${civilizationcraftidea.output.dir}"/>
+    <delete dir="${civilizationcraftidea.testoutput.dir}"/>
+  </target>
+</project>

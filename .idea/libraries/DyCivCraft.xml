@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DyCivCraft">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/out/artifacts/DyCC/DyCivCraft.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

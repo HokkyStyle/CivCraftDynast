@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/bonecp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/guava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/dhutils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/slf4j-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/VanishNoPacket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/MobLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CivilizationCraft/lib/slf4j-simple.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/bonecp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/citizensapi-2.0.22-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/CustomMobs-4.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/dhutils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/DyCivCraft.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/Essentials-2.x-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/guava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/Herochat.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/iTag-1.1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/MobLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/mockito-all-1.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/NoCheatPlus.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/Parzi's Star Wars Mod v1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/ProtocolLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/Scoreboard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/slf4j-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/slf4j-simple.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/TagAPI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/TitleAPI-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/VanishNoPacket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/WorldBorder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Libraries&amp;Plugins/mockito-all-1.9.5.jar!/" />
+    </SOURCES>
+  </library>
+</component>
